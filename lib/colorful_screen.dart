@@ -10,13 +10,14 @@ class ColorfulScreen extends StatefulWidget {
 class _ColorfulScreenState extends State<ColorfulScreen> {
   Color color;
 
-  @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-    var homePageState = context.findAncestorWidgetOfExactType<MyApp>();
-    print('home page state found $homePageState');
-  }
+  // @override
+  // void initState() {
+    // super.initState();
+    // var homePageState = context.findAncestorStateOfType<MyAppState>();
+    // print('home page state found ${homePageState.hashCode}');
+    // var homePageWidget = context.findAncestorWidgetOfExactType<MyApp>();
+    // print('home page widget found ${homePageWidget.hashCode}');
+  // }
 
   @override
   Widget build(BuildContext context) {
